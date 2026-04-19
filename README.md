@@ -27,7 +27,7 @@
 
 **Bu repoda kaynak kod YOKTUR.**
 
-Gordugunuz tek sey, KOR Protect tarafindan **L1-L8** katmanlariyla obfuscate edilmis, uzerine **custom L14** anti-vm / anti-debug / anti-emulator katmanlari eklenmis **gercek calisan koddur**.
+Gordugunuz tek sey, KOR Protect FAZ16 tarafindan **L1-L12** katmanlariyla obfuscate edilmis, uzerine **gercek L14 Emulator** anti-vm/anti-debug/anti-sandbox katmanlari eklenmis **gercek calisan koddur**.
 
 - Simulasyon yok.
 - Theater yok.
@@ -69,11 +69,13 @@ Bu dosyada aktif koruma katmanlari:
 | **L6** | Overload Induction (phantom variants + dispatch) | ✓ Gercek |
 | **L7** | Guardian (runtime tamper check + byte-level sig) | ✓ Gercek |
 | **L8** | Reflection+Import (getattr/import obfuscation) | ✓ Gercek |
-| **L14** | Anti-VM (CPU hypervisor / Docker / sandbox) | ✓ Custom |
-| **L14** | Anti-Debug (ptrace / trace hook / parent proc) | ✓ Custom |
-| **L14** | Anti-Emulator (timing attack / instruction count) | ✓ Custom |
+| **L9** | Opaque Predicates (THM-Ψ Banach + SUN TZU honeypots) | ✓ Gercek |
+| **L10** | Anti-Debug (ptrace/debugger detection + checksum) | ✓ Gercek |
+| **L11** | VM Virtualization (custom KOR-VM bytecode interpreter) | ✓ Gercek |
+| **L12** | Anti-Decompile (type erasure + bytecode poison) | ✓ Gercek |
+| **L14** | Anti-VM/Sandbox (VMware/VirtualBox/QEMU/Docker/AVD detection) | ✓ Gercek |
 
-**κ = 1.0 | SDCK = BENEFACTOR**
+**κ = 1.0 | SDCK = BENEFACTOR | SYMBOL POOL = ~8500 sembol**
 
 ---
 
