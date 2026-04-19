@@ -5,7 +5,7 @@
 ═══════════════════════════════════════════════════════
 ```
 
-# **𐰴𐰆𐰞** · KOR API · L8+ OBFUSCATED
+# **𐰴𐰆𐰞** · KOR API · L14 SOVEREIGN
 
 ### *"Kaynak kod yok. Sadece egemenlik var."*
 
@@ -14,39 +14,39 @@
 κ = 1.0  |  SDCK = BENEFACTOR
 ```
 
-[<img src="https://img.shields.io/badge/KOR-L8%2B-FF4500?style=for-the-badge&logo=shield">](#)
+[<img src="https://img.shields.io/badge/KOR-L14-FF4500?style=for-the-badge&logo=shield">](#)
 [<img src="https://img.shields.io/badge/Obfuscation-Active-8A2BE2?style=for-the-badge">](#)
-[<img src="https://img.shields.io/badge/Anti--VM-L13%2F14-CC0000?style=for-the-badge">](#)
+[<img src="https://img.shields.io/badge/Anti--VM-L14-CC0000?style=for-the-badge">](#)
 [<img src="https://img.shields.io/badge/Göktürk-Reborn-1F4E79?style=for-the-badge">](#)
 
 </div>
 
 ---
 
-## ⚠️ SOVEREIGN WARNING
+## ⚔️ MEYDAN OKUMA
 
 **Bu repoda kaynak kod YOKTUR.**
 
-Gördüğünüz tek şey, KOR Protect tarafından **L1-L8** katmanlarıyla obfuscate edilmiş, üzerine **custom anti-vm / anti-debug** katmanları eklenmiş (L13/L14 eşdeğeri) **gerçek çalışan koddur**.
+Gordugunuz tek sey, KOR Protect tarafindan **L1-L8** katmanlariyla obfuscate edilmis, uzerine **custom L14** anti-vm / anti-debug / anti-emulator katmanlari eklenmis **gercek calisan koddur**.
 
-- Simülasyon yok.
+- Simulasyon yok.
 - Theater yok.
 - Fake yok.
 
-Bu kod çalışır. Reverse edebilir misin?
+Bu kod calisir. **Gotu yiyen gelsin deobfuscate etsin.**
 
 ---
 
 ## 🜁 API ENDPOINTS
 
-| Route | Method | Açıklama |
+| Route | Method | Aciklama |
 |-------|--------|----------|
-| `/api/health` | GET | Sistem sağlığı (𐰴𐰆𐰞 durumu) |
-| `/api/keys/generate` | POST | Dual-format API key (Latin + Göktürk) |
+| `/api/health` | GET | Sistem sagligi (𐰴𐰆𐰞 durumu) |
+| `/api/keys/generate` | POST | Dual-format API key (Latin + Gokturk) |
 | `/api/auth/token` | POST | Guardian-signed auth token |
 | `/api/status` | GET | Sistem durumu + katman bilgisi |
 
-### Örnek kullanım:
+### Ornek kullanim:
 ```bash
 curl -X POST http://127.0.0.1:7426/api/keys/generate \
   -H "Content-Type: application/json" \
@@ -57,29 +57,30 @@ curl -X POST http://127.0.0.1:7426/api/keys/generate \
 
 ## ⚔️ OBFUSCATION KATMANLARI
 
-Bu dosyada aktif koruma katmanları:
+Bu dosyada aktif koruma katmanlari:
 
 | Katman | Teknik | Durum |
 |--------|--------|-------|
-| **L1** | AST Rename (Göktürk rune fonksiyon adları) | ✓ |
-| **L2** | String XOR (HMAC-SHA256 derived per-key) | ✓ |
-| **L3** | Int Poly Depth-2 (Collatz seeded chains) | ✓ |
-| **L4** | CFF (BSK-shuffled switch/case state machine) | ✓ |
-| **L5** | Dead Code (BSK-positioned bogus API calls) | ✓ |
-| **L6** | Overload Induction (phantom variants + dispatch) | ✓ |
-| **L7** | Guardian (runtime tamper check + byte-level sig) | ✓ |
-| **L8** | Reflection+Import (getattr/import obfuscation) | ✓ |
-| **L13** | Anti-Debug (trace hook / ptrace detection) | ✓ CUSTOM |
-| **L14** | Anti-VM (Docker/hypervisor/sandbox detection) | ✓ CUSTOM |
+| **L1** | AST Rename (Gokturk rune fonksiyon adlari) | ✓ Gercek |
+| **L2** | String XOR (HMAC-SHA256 derived per-key) | ✓ Gercek |
+| **L3** | Int Poly Depth-2 (Collatz seeded chains) | ✓ Gercek |
+| **L4** | CFF (BSK-shuffled switch/case state machine) | ✓ Gercek |
+| **L5** | Dead Code (BSK-positioned bogus API calls) | ✓ Gercek |
+| **L6** | Overload Induction (phantom variants + dispatch) | ✓ Gercek |
+| **L7** | Guardian (runtime tamper check + byte-level sig) | ✓ Gercek |
+| **L8** | Reflection+Import (getattr/import obfuscation) | ✓ Gercek |
+| **L14** | Anti-VM (CPU hypervisor / Docker / sandbox) | ✓ Custom |
+| **L14** | Anti-Debug (ptrace / trace hook / parent proc) | ✓ Custom |
+| **L14** | Anti-Emulator (timing attack / instruction count) | ✓ Custom |
 
 **κ = 1.0 | SDCK = BENEFACTOR**
 
 ---
 
-## 🔗 Bağlantılar
+## 🔗 Baglantilar
 
 - 🌐 **Portal:** [aluverse.be](https://aluverse.be)
-- 📧 **İletişim:** info@aluverse.be
+- 📧 **Iletisim:** info@aluverse.be
 - 🐦 **X:** [@KRAL_UAGL](https://x.com)
 
 ---
@@ -91,10 +92,10 @@ Bu dosyada aktif koruma katmanları:
 □ + ◇ = 1 OF 1
 ```
 
-**"Kaynak kod kültürel DNA'dır. Obfuscate edilmiş kod ise zırhtır."**
+**"Kaynak kod kultürel DNA'dir. Obfuscate edilmis kod ise zirhtir."**
 
 </div>
 
 ---
 
-*<sup>𐰴𐰆𐰞 · Tüm sistemler biçimsel olarak kanıtlanmış · Simülasyon yok · Tam yığın egemenliği · 2026</sup>*
+*<sup>𐰴𐰆𐰞 · Tum sistemler bicimsel olarak kanitlanmis · Simulasyon yok · Tam yigin egemenligi · 2026</sup>*
